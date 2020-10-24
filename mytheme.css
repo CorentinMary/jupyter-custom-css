@@ -1,0 +1,333 @@
+.header-bar {
+    display: none;
+}
+
+#header-container img {
+    display: none;
+}
+
+#notebook_name {
+    margin-left: 0px !important;
+    color: #79f2c4;
+}
+
+#header-container {
+    padding-left: 0px !important
+}
+
+html,
+body {
+    overflow: hidden;
+}
+
+#header {
+    background-color: #212121 !important;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.navbar-collapse {
+    background-color: #212121 !important;
+    color: #fff;
+    border: none !important
+}
+
+#menus {
+    border: none !important;
+    color: white !important;
+}
+
+#menus .dropdown-toggle {
+    color: white !important;
+}
+
+#filelink {
+    color: white !important;
+    text-align: center !important;
+    padding-left: 7px;
+    text-decoration: none !important;
+}
+
+.navbar-default .navbar-nav&gt;.open&gt;a,
+.navbar-default .navbar-nav&gt;.open&gt;a:hover,
+.navbar-default .navbar-nav&gt;.open&gt;a:focus {
+    background-color: #191919 !important;
+    color: #eee !important;
+    text-align: left !important;
+}
+
+div.cell {
+    transition: all 0.25s;
+    border: none;
+    position: relative;
+    top: 0;
+}
+
+div.cell.selected, div.cell.selected.jupyter-soft-selected {
+    border: none;
+    background: transparent;
+    box-shadow: 0 6px 18px #aaa;
+    z-index: 10;
+    top: -10px;
+}
+
+.dropdown-menu,
+.dropdown-menu a,
+.dropdown-submenu a {
+    background-color: #191919;
+    color: #fff !important;
+}
+
+.dropdown-menu&gt;li&gt;a:hover,
+.dropdown-menu&gt;li&gt;a:focus,
+.dropdown-submenu&gt;a:after {
+    background-color: #212121;
+    color: #fff !important;
+}
+
+.btn-default {
+    color: #fff !important;
+    background-color: #212121 !important;
+    border: none !important;
+}
+
+.dropdown {
+    text-align: left !important;
+}
+
+.form-control.select-xs {
+    background-color: #191919 !important;
+    color: #eee !important;
+    border: none;
+    outline: none;
+}
+
+#modal_indicator {
+    display: none;
+}
+
+#kernel_indicator {
+    color: #5bc0de;
+}
+
+#notification_trusted,
+#notification_notebook {
+    background-color: #212121;
+    color: #eee !important;
+    border: none;
+    border-bottom: 1px solid #eee;
+}
+
+#logout {
+    background-color: #191919;
+    color: #eee;
+}
+
+#maintoolbar-container {
+    padding-top: 0px !important;
+}
+
+.notebook_app {
+    background-color: #222222;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+#notebook-container {
+    background-color: #212121;
+}
+
+div.cell.selected,
+div.cell.selected.jupyter-soft-selected {
+    border: none !important;
+}
+
+.cm-keyword {
+    color: #faa2ed !important;
+}
+
+.input_area {
+    background-color: #212121 !important;
+    color: white !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+}
+
+.cm-def {
+    color: #f7d88f !important;
+}
+
+.cm-variable {
+    color: #79f2c4 !important;
+}
+
+.output_subarea.output_text.output_result pre,
+.output_subarea.output_text.output_stream.output_stdout pre {
+    color: white !important;
+}
+
+.CodeMirror-line {
+    color: white !important;
+}
+
+.cm-operator {
+    color: white !important;
+}
+
+.cm-number {
+    color: #da23fa !important;
+}
+
+.inner_cell {
+    border: 1px thin #eee;
+    border-radius: 50px !important;
+}
+
+.CodeMirror-lines {
+    border-radius: 20px;
+}
+
+.prompt.input_prompt {
+    color: #5bc0de !important;
+}
+
+.prompt.output_prompt {
+    color: #79f2c4;
+}
+
+.cm-string {
+    color: #f5eb64 !important;
+}
+
+.cm-builtin {
+    color: #62edf0 !important;
+}
+
+.run_this_cell {
+    color: #79f2c4 !important;
+}
+
+.input_area {
+    border-radius: 20px;
+}
+
+.output_png {
+    background-color: white;
+}
+
+.CodeMirror-cursor {
+    border-left: 1.4px solid white;
+}
+
+.box-flex1.output_subarea.raw_input_container {
+    color: white;
+}
+
+input.raw_input {
+    color: white !important;
+}
+
+div.output_area pre {
+    color: white
+}
+
+h1,.h1 {
+    color: white;
+}
+h2,.h2 {
+    color: white;
+}
+h3,.h3 {
+    color: white;
+}
+h4,.h4 {
+    color: white;
+}
+h5,.h5 {
+    color: white;
+}
+h6,.h6 {
+    color: white;
+}
+p,.p {
+    color: white;
+}
+.CodeMirror-gutter.CodeMirror-linenumber,
+.CodeMirror-gutters {
+    background-color: #212121 !important;
+}
+
+
+span.filename:hover {
+    color: #191919 !important;
+    height: auto !important;
+}
+
+#site {
+    background-color: #191919 !important;
+    color: white !important;
+}
+
+#tabs li.active a {
+    background-color: #212121 !important;
+    color: white !important;
+}
+
+#tabs li {
+    background-color: #191919 !important;
+    color: white !important;
+    border-top: 1px thin #eee;
+}
+
+#notebook_list_header {
+    background-color: #212121 !important;
+    color: white !important;
+}
+
+#running .panel-group .panel {
+    background-color: #212121 !important;
+    color: white !important;
+}
+
+#accordion.panel-heading {
+    background-color: #212121 !important;
+}
+
+#running .panel-group .panel .panel-heading {
+    background-color: #212121;
+    color: white
+}
+
+.item_name {
+    color: white !important;
+    cursor: pointer !important;
+}
+
+.list_item:hover {
+    background-color: #212121 !important;
+}
+
+.item_icon.icon-fixed-width {
+    color: white !important;
+}
+
+#texteditor-backdrop {
+    background-color: #191919 !important;
+    border-top: 1px solid #eee;
+}
+
+.CodeMirror {
+    background-color: #212121 !important;
+}
+
+#texteditor-backdrop #texteditor-container .CodeMirror-gutter,
+#texteditor-backdrop #texteditor-container .CodeMirror-gutters {
+    background-color: #212121 !important;
+}
+
+.celltoolbar {
+    background-color: #212121 !important;
+    border: none !important;
+}
