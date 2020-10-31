@@ -163,6 +163,10 @@ div.cell.selected.jupyter-soft-selected {
     color: #79f2c4 !important;
 }
 
+.cm-variable-2 {
+    color: #aaadad !important;
+}
+
 .output_subarea.output_text.output_result pre,
 .output_subarea.output_text.output_stream.output_stdout pre {
     color: white !important;
@@ -252,6 +256,9 @@ h6,.h6 {
     color: white;
 }
 p,.p {
+    color: white;
+}
+li,.li {
     color: white;
 }
 .CodeMirror-gutter.CodeMirror-linenumber,
